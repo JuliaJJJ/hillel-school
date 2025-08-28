@@ -1,0 +1,26 @@
+# Ignore all log files
+*.log
+
+# Ignore the 'node_modules' directory commonly used in Node.js projects
+node_modules/
+
+# Ignore the 'build' and 'dist' directories for compiled output
+build/
+dist/
+
+# Ignore environment variable files
+.env
+
+# Ignore IDE-specific files and directories (e.g., VS Code, IntelliJ)
+.vscode/
+.idea/
+
+# Ignore operating system generated files (e.g., macOS .DS_Store)
+.DS_Store
+
+# Ignore specific files by name, even if they have an allowed extension
+my_secret_key.pem
+
+# Exclude a specific file from a previously ignored directory
+# (Note: This only works if the directory itself is not completely ignored)
+!node_modules/important_script.js
